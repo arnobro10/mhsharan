@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arnobro | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <div class="profile">
-            <img src="profile.jpg" alt="Your Name" class="profile-img">
-            <h1>Your Name</h1>
-            <p class="job-title">Your Job Title at Your University</p>
-            <p class="bio">
-                Hi, I am an Assistant Professor at the University of Somewhere.<br>
-                My research focuses on topics such as unemployment, inequality, and wages. 
-                I completed my PhD at the University of Somewhere in 2024.
-            </p>
-            <div class="social-links">
-                <a href="mailto:youremail@example.com">Contact</a>
-                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-                <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
-                <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
-                <a href="https://scholar.google.com/citations?user=your-google-scholar-id" target="_blank">Google Scholar</a>
-                <a href="https://www.university.com" target="_blank">University</a>
-            </div>
-        </div>
+  <header>
+    <nav>
+      <h1 class="logo">Arnobro</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm <span>Arnobro</span></h2>
+      <p>A passionate developer who loves building cool things for the web.</p>
+      <a href="#projects" class="btn">View My Work</a>
     </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a tech enthusiast with a focus on clean design, intuitive user
+      experiences, and building creative digital solutions. I love learning and
+      exploring new technologies.
+    </p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal website showcasing my projects and experience.</p>
+      </div>
+      <div class="project-card">
+        <h3>Vending Machine Proposal</h3>
+        <p>A university initiative designed to bring convenience to campus.</p>
+      </div>
+      <div class="project-card">
+        <h3>Shape Calculator (Java)</h3>
+        <p>A Java project that calculates areas for various shapes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Want to collaborate or just say hi? Reach out!</p>
+    <a href="mailto:arnobro@example.com" class="btn">Email Me</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Arnobro. All rights reserved.</p>
+  </footer>
 </body>
 </html>
